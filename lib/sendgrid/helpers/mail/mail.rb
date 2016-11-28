@@ -638,7 +638,7 @@ module SendGrid
     end
   end
 
-  class Content
+  class SendgridContent
     def initialize(type: nil, value: nil)
       @type = type
       @value = value
