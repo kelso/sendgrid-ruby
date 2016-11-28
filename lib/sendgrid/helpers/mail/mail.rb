@@ -474,7 +474,7 @@ module SendGrid
     end
   end
 
-  class Category
+  class SendgridCategory
     def initialize(name: nil)
       @category = name
     end
